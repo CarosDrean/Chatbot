@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Asistente Virtual"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/title"
+                android:paddingTop="25dp"
+                android:layout_margin="20dp"
+                android:textColor="#000"/>
+
+        <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/message_list"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="120dp"
+                android:scrollbars="vertical"
+                android:layout_below="@+id/title">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <ai.api.ui.AIButton
+                android:id="@+id/micButton"
+                style="@style/ApiAi.Microphone"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="110dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

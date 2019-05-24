@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939946179353",
+    "firebase_url": "https://dreanbot-44566.firebaseio.com",
+    "project_id": "dreanbot-44566",
+    "storage_bucket": "dreanbot-44566.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939946179353:android:03e421e701504f8c",
+        "android_client_info": {
+          "package_name": "xyz.drean.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939946179353-o9b492j3phhico2nev95phm1em2s5s15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.drean.chatbot",
+            "certificate_hash": "891176651c279031f350b2f4ee2007a6e152c8b9"
+          }
+        },
+        {
+          "client_id": "939946179353-isf9a34cskmnaajsmpti57kji7cc56g2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnCwgPISe6b1GCXvkkOAsbZ8cCZDIMPY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939946179353-isf9a34cskmnaajsmpti57kji7cc56g2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
